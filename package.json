@@ -1,14 +1,40 @@
 {
-  "name": "oxc-fuzz-parser",
-  "private": true,
-  "scripts": {
-    "start": "cargo build --release && node main.js ./target/release/fuzzer"
-  },
-  "devDependencies": {
-    "shift-ast": "^7.0.0",
-    "shift-codegen": "^8.1.0",
-    "shift-fuzzer": "^3.0.0",
-    "shift-parser": "^8.0.0",
-    "shift-shrink": "^2.0.0"
-  }
+	"name": "oxc-fuzz-parser",
+	"version": "0.0.1",
+	"private": false,
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/OXCFuzzParser#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/OXCFuzzParser/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/OXCFuzzParser.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"start": "cargo build --release && node main.js ./target/release/fuzzer"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"shift-ast": "^7.0.0",
+		"shift-codegen": "^8.1.0",
+		"shift-fuzzer": "^3.0.0",
+		"shift-parser": "^8.0.0",
+		"shift-shrink": "^2.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
