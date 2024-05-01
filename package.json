@@ -28,11 +28,11 @@
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
-		"shift-ast": "^7.0.0",
-		"shift-codegen": "^8.1.0",
-		"shift-fuzzer": "^3.0.0",
-		"shift-parser": "^8.0.0",
-		"shift-shrink": "^2.0.0"
+		"shift-ast": "7.0.0",
+		"shift-codegen": "8.1.0",
+		"shift-fuzzer": "3.0.0",
+		"shift-parser": "8.0.0",
+		"shift-shrink": "2.0.0"
 	},
 	"publishConfig": {
 		"access": "public"
