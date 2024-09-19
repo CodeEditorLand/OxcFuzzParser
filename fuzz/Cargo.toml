@@ -1,5 +1,5 @@
 [package]
-name = "oxc_fuzz"
+name    = "oxc_fuzz"
 version = "0.0.0"
 publish = false
 edition = "2021"
