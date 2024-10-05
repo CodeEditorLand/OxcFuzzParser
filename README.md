@@ -12,6 +12,7 @@ pnpm run start
 ```bash
 cargo install cargo-fuzz
 ```
+
 ### Run
 
 Run fuzzer for the parser, for 15 minutes.
