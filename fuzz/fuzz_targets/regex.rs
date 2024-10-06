@@ -10,11 +10,7 @@ libfuzzer_sys::fuzz_target!(|data:&[u8]| {
 			let _ = PatternParser::new(
 				&allocator,
 				&s,
-				ParserOptions {
-					span_offset:0,
-					unicode_mode:true,
-					unicode_sets_mode:true,
-				},
+				ParserOptions { span_offset:0, unicode_mode:true, unicode_sets_mode:true },
 			)
 			.parse();
 		}
