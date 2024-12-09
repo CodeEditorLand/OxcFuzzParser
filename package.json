@@ -1,4 +1,8 @@
 {
+	"name": "@codeeditorland/fuzz-parser",
+	"scripts": {
+		"start": "cargo build --release && node main.js ./target/release/fuzzer"
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"shift-ast": "7.0.0",
@@ -6,9 +10,5 @@
 		"shift-fuzzer": "3.0.0",
 		"shift-parser": "8.0.0",
 		"shift-shrink": "2.0.0"
-	},
-	"name": "oxc-fuzz-parser",
-	"scripts": {
-		"start": "cargo build --release && node main.js ./target/release/fuzzer"
 	}
 }
