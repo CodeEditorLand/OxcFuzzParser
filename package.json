@@ -1,14 +1,13 @@
 {
-  "name": "fuzz-oxc",
-  "private": true,
-  "scripts": {
-    "start": "cargo build --release && node main.js ./target/release/fuzzer"
-  },
-  "devDependencies": {
-    "shift-ast": "^7.0.0",
-    "shift-codegen": "^8.1.0",
-    "shift-fuzzer": "^3.0.0",
-    "shift-parser": "^8.0.0",
-    "shift-shrink": "^2.0.0"
-  }
+	"name": "fuzz-oxc",
+	"scripts": {
+		"start": "cargo build --release && node main.js ./target/release/fuzzer"
+	},
+	"devDependencies": {
+		"shift-ast": "^7.0.0",
+		"shift-codegen": "^8.1.0",
+		"shift-fuzzer": "^3.0.0",
+		"shift-parser": "^8.0.0",
+		"shift-shrink": "^2.0.0"
+	}
 }
