@@ -24,6 +24,6 @@ test = false
 doctest = false
 
 [dependencies]
-oxc = { version = "0.39.0" }
-oxc_regular_expression = { version = "0.39.0" }
+oxc = { version = "0.41.0" }
+oxc_regular_expression = { version = "0.41.0" }
 libfuzzer-sys = "0.4.8"
