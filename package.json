@@ -3,6 +3,7 @@
 	"scripts": {
 		"start": "cargo build --release && node main.js ./target/release/fuzzer"
 	},
+	"dependencies": {},
 	"devDependencies": {
 		"shift-ast": "^7.0.0",
 		"shift-codegen": "^8.1.0",
