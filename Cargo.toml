@@ -1,10 +1,13 @@
-[package]
+[[bin]]
 name = "fuzzer"
-version = "0.0.1"
-edition = "2021"
-publish = false
+path = "Source/main.rs"
 
 [dependencies]
+libfuzzer-sys = "0.4.8"
 oxc = { version = "0.48.0", features = ["full"]}
 
-libfuzzer-sys = "0.4.8"
+[package]
+edition = "2021"
+name = "fuzzer"
+publish = false
+version = "0.0.1"
