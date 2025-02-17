@@ -12,11 +12,11 @@ test = false
 
 [dependencies]
 libfuzzer-sys = "0.4.9"
-oxc = "0.48.1"
-oxc_regular_expression = "0.48.1"
+oxc = "0.51.0"
+oxc_regular_expression = "0.51.0"
 
 [package]
-edition = "2021"
+edition = "2024"
 name = "oxc_fuzz"
 publish = false
 version = "0.0.0"
