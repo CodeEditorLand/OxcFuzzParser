@@ -3,6 +3,8 @@ name = "fuzzer"
 path = "Source/main.rs"
 
 [dependencies]
+oxc = { version = "0.48.0", features = ["full"]}
+
 libfuzzer-sys = "0.4.8"
 oxc = { version = "0.48.0", features = ["full"]}
 
